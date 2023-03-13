@@ -30,7 +30,7 @@ public class NegatifLoginTesti {
         Driver.closeDriver();
     }
 
-    @Test
+    @Test(groups = "smoke")
 
     public void negatifLoginTesti2(){
     //2- gecersiz username, gecerli password

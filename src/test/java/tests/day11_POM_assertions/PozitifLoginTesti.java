@@ -8,7 +8,7 @@ import utilities.Driver;
 import utilities.ReusableMethods;
 
 public class PozitifLoginTesti {
-    @Test
+    @Test(groups = "smoke")
     public void pozitifLoginTesti(){
             // qd anasayfaya gidin
         Driver.getDriver().get(ConfigReader.getProperty("qdUrl"));

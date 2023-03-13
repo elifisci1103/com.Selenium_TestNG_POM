@@ -27,4 +27,30 @@ public class QdemyPage {
     public WebElement basariliGirisElementi;
     @FindBy(xpath = "//a[text()='Accept']")
     public WebElement cerezKabul;
+    @FindBy(xpath = "(//a[text()='Sign Up'])[1]")
+    public WebElement homeSignUpButonu;
+
+    @FindBy(xpath = "(//img[@class='img-fluid'])[1]")
+    public WebElement userProfileImg;
+    @FindBy(xpath="//a[text()='User profile']")
+    public WebElement userProfileText;
+
+    @FindBy(xpath = "//input[@id='FristName']")
+    public WebElement userProfileFirstName;
+
+    @FindBy(xpath = "//input[@name='last_name']")
+    public WebElement userProfileLastName;
+
+    @FindBy(id="Biography_ifr")
+    public WebElement iframe;
+
+    @FindBy(xpath = "//body[@data-id='Biography']")
+    public WebElement biography;
+
+    @FindBy(xpath = "//button[@class='btn red px-5 py-2 radius-8']")
+    public WebElement saveButonu;
+
+    @FindBy(xpath = "//div[@class='user-box']")
+    public WebElement homeUserName;
+
 }

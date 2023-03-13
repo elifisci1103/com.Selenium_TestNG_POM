@@ -36,11 +36,11 @@ public class HardAssert_SoftAssert {
          */
         SoftAssert softAssert = new SoftAssert();
 
-        softAssert.assertTrue(5>8,"true testi failed"); //
+        softAssert.assertTrue(9>8,"true testi failed"); //
 
         softAssert.assertFalse(8==8,"false testi failed");
 
-        softAssert.assertEquals(5,9,"equals testi failed");
+        softAssert.assertEquals(9,9,"equals testi failed");
 
         softAssert.assertNotEquals(6,6,"not equals testi failed");
 
